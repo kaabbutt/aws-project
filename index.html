@@ -1,78 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>AWS-themed Landing Page</title>
-  <style>
-    body {
-      background-color: #232f3e;
-      color: #ffffff;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-
-    .resume-container {
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-
-    .resume-container iframe {
-      width: 80%;
-      height: 80%;
-      border: none;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Space Store - Products</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="resume-container">
-    <h1>Kaab Butt</h1>
-    <p>Pakistan | kaabbutt@gmail.com</p>
-    <p><a href="linkedin.com/in/kaabbutt">linkedin.com/in/kaabbutt</a></p>
-    <hr>
-    <h2>Summary</h2>
-    <p>Highly motivated and adaptable professional transitioning into the dynamic field of IT Cloud. Armed with a strong passion for technology and a solid foundation in IT fundamentals, I am eager to leverage cloud-based solutions to drive business growth and innovation. With a quick learning ability, strong problem-solving skills, and a collaborative mindset, I am well-equipped to navigate the complexities of cloud platforms and deploy scalable architectures. My commitment to continuous learning and staying up-to-date with the latest industry trends positions me as a valuable asset in the IT Cloud field, ready to make an immediate impact.</p>
-    <hr>
-    <h2>Experience</h2>
-    <p>Junior Consultant<br>
-    DataKloud IT Solutions Inc.<br>
-    Mar 2023 - Present (4 months)</p>
-    <ul>
-      <li>Collaborate with senior architects and stakeholders to design scalable cloud solutions.</li>
-      <li>Support the deployment and configuration of cloud infrastructure components.</li>
-      <li>Implement security measures and ensure compliance with regulations.</li>
-      <li>Contribute to automation and orchestration efforts for streamlined cloud management.</li>
-      <li>Troubleshoot technical issues related to cloud infrastructure and services.</li>
-      <li>Stay updated with cloud technologies and industry trends.</li>
-      <li>Document solutions and effectively communicate with stakeholders.</li>
-      <li>Pursue continuous learning to enhance cloud architecture skills.</li>
-    </ul>
-    <p>Technology Stack:<br>
-    AWS: IAM, VPC, S3, EKS, EC2, NACL, CloudFormation, EBS.</p>
-    <hr>
-    <h2>Education</h2>
-    <p>University of Management and Technology - UMT<br>
-    Master of Philosophy - MPhil, Religion/Religious Studies</p>
-    <hr>
-    <h2>Licenses & Certifications</h2>
-    <ul>
-      <li>AWS Certified Cloud Practitioner - Amazon Web Services (AWS)</li>
-      <li>AWS re/Start Graduate - Amazon Web Services (AWS)</li>
-      <li>Certified Cloud Security Professional (CCSP) - U.S. Department of Homeland Security</li>
-      <li>AWS Learning: Cloud Essentials - Amazon Web Services (AWS)</li>
-    </ul>
-    <hr>
-    <h2>Skills</h2>
-    <p>Network Security • AWS Security • Cloud Security • Information Security • AWS Elastic Beanstalk • Cloud Computing • DevOps • Sales • Cybersecurity • AWS Cloud Migration</p>
-    <hr>
-    <p>&copy; 2023 Kaab Butt. All rights reserved.</p>
-  </div>
+<header>
+    <h1>Space Store</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Cart</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="products">
+    <article class="product">
+        <img src="product1.jpg" alt="Space T-Shirt">
+        <h2>Space T-Shirt</h2>
+        <p class="price">$19.99</p>
+        <button>Add to Cart</button>
+    </article>
+    <article class="product">
+        <img src="product2.jpg" alt="Galaxy Hoodie">
+        <h2>Galaxy Hoodie</h2>
+        <p class="price">$39.99</p>
+        <button>Add to Cart</button>
+    </article>
+    <!-- Add more products here -->
+</section>
+<footer>
+    <p>&copy; 2023 Space Store</p>
+</footer>
 </body>
 </html>
-
-
-
-Remember to replace the LinkedIn profile URL with your actual LinkedIn profile URL to make it functional. Feel free to further customize the design and layout as per your preferences.
